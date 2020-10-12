@@ -6,7 +6,7 @@ To run a private instance of ```mysqld``` MySQL server as a normal user sometime
 
 There are several ways to do so. One way is to use the MySQL package insatlled by your sysadmin, while create the database settings and files in your own HOME direcory; the other way is to install your own copy of MySQL in your HOME direcory and configure it. You can downlwd the rpm files, and install them into your folders; or you can download the source files and compile/install it.
 
-**(1) Download ans install MySQL server and client.**
+**(1) Download and install MySQL server and client.**
 
 What I did is to download the rpm files, from ```http://mirror.centos.org/centos/7/os/x86_64/Packages/``` . Here one should make sure the pre-compiled version is compatible with the local OS. The 3 files are:
 
