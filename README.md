@@ -54,7 +54,7 @@ Source the updated ```.bashrc``` file to update, and test if it is alright:
 
 It is good, the OS now knows where my private MySQL is.
 
-**(2) Configurel MySQL server and client.
+**(2) Configure MySQL server and client.**
 
 Now to configure the MySQL server. There are many ways to do so, I will focus on the easiest one as below: 
 
