@@ -36,7 +36,7 @@ Do the same to the other 2 rpm files. After this is done, you will see the pre-c
 
 Now, I have my own pre-compiled MySQL server and client ready to be run. Before to start to run, I need to do some configurations.
 
-First, set the runtime environment to let the OS to know where my MySQL files are.  I add 3 lines below into my ```.bashrc`` file. 
+First, set the runtime environment to let the OS to know where my MySQL files are.  I add 3 lines below into my ```.bashrc``` file. 
 
 ```export LD_LIBRARY_PATH=/home/feng/mysql/usr/lib64:$LD_LIBRARY_PATH```
 
