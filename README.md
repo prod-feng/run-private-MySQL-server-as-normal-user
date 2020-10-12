@@ -63,11 +63,15 @@ Edit my private ```/home/feng/.my.cnf``` file, add following lines:
 
 ```[client]```
 
+```port=3306```
+
 ```socket=/home/feng/mysql/var/lib/mysql/mysql.sock```
 
 ``` ```
 
 ```[mysqld]```
+
+```port=3306```
 
 ```datadir=/home/feng/mysql/var/lib/mysql```
 
