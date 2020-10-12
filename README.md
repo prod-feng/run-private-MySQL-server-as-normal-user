@@ -40,7 +40,7 @@ First, set the runtime environment to let the OS to know where my MySQL files ar
 
 ```export LD_LIBRARY_PATH=/home/feng/mysql/usr/lib64:$LD_LIBRARY_PATH```
 
-```export PATH=/home/feng/mysql/usr/libexec:/home/fenzhang/rpm/unpack/usr/bin:/home/fenzhang/rpm/unpack/usr/sbin:$PATH```
+```export PATH=/home/feng/mysql/usr/libexec:/home/feng/mysql/usr/bin:/home/feng/mysql/usr/sbin:$PATH```
 
 ```export PHP_INI_SCAN_DIR=/home/feng/mysql/etc/php.d```
 
