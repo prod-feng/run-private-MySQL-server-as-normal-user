@@ -91,7 +91,7 @@ Now to configure the MySQL server. There are many ways to do so, I will focus on
 
 I can also edit my private ```/home/feng/mysql/etc/my.cnf``` file, add/update the above lines into it. While everytime when I need to run MySQL, I have to explicitly direct MySQL to use the configuration file by ``` mysqld_safe --defaults-file=/home/fenzhang/rpm/unpack/etc/my.cnf ```. And also when I try to run MySQL client,  I have to run "mysql -u feng -p --socket=/home/fenzhang/rpm/unpack/var/lib/mysql/mysql.sock". MySQL seems by default search ```/etc/my.cnf``` and ```.my.cnf```, and finally search the  ```--defaults-file```.
 
-Now I can run my own MySQL server simply by issue command:
+Now I can run my own MySQL server simply by issuing command:
 
 ```mysqld_safe &```
 
