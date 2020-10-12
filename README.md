@@ -97,4 +97,4 @@ Now I can run my own MySQL server simply by issuing command:
 
 ```mysqld_safe &```
 
-
+Finnaly, if the OS has SELinux and Firewall enabled, the port for MySQL may need to be set and enabled there.
