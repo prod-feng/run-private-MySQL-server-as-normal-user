@@ -44,7 +44,7 @@ First, set the runtime environment to let the OS to know where my MySQL files ar
 
 ```export PHP_INI_SCAN_DIR=/home/feng/mysql/etc/php.d```
 
-Source the updated ```.bashrc`` file to update, and test if it is alright:
+Source the updated ```.bashrc``` file to update, and test if it is alright:
 
 ```[feng@server1 ~]$ which mysqld_safe```
 
